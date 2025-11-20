@@ -1,0 +1,22 @@
+# --- Gestión de variables de entorno ---
+python-dotenv==1.0.1       # Cargar variables desde .env
+
+# --- LangChain (framework LLM) ---
+langchain==0.2.14           # Núcleo de LangChain
+langchain-openai==0.1.20    # Conectores de OpenAI para LangChain
+langgraph==0.0.67           # Construcción de grafos de estados y agentes
+
+# --- OpenAI API ---
+openai==1.40.2              # SDK oficial de OpenAI
+
+# --- Base de datos ---
+sqlalchemy==2.0.32          # ORM para trabajar con bases de datos SQL
+
+# --- Validación y modelos ---
+pydantic>=2                 # Validación de datos y modelos estructurados en Python
+
+
+
+# ORM (Object-Relational Mapping): Herramienta que permite trabajar con bases de datos SQL
+# usando objetos y clases de Python en lugar de escribir queries SQL manuales.
+# Facilita crear, leer, actualizar y borrar registros (CRUD) de forma más segura y estructurada.
